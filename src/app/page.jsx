@@ -1,7 +1,16 @@
 'use client';
 import React from "react";
-export default function Main() {
+import Image from "next/image";
+export default function page() {
   return (
-    <h1>kygutv</h1>
+    <div>
+      <ol>
+        <li>h</li>
+        <li>e</li>
+        <li>l</li>
+        <li>l</li>
+        <li>o</li>
+      </ol>
+    </div>
   );
 }
