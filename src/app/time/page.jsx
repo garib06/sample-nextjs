@@ -11,7 +11,7 @@ export default function Time() {
 
   return (
     <div>
-      <h1>{time}</h1>
+      <h1 style={{ color: "red", textAlign: "center" , justifyContent: "center" }} className=" text-2xl rounded-lg p-2 m-2">{time}</h1>
     </div>
   );
 }
